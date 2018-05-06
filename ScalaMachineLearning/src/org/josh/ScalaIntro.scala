@@ -2,7 +2,7 @@ package org.josh
 
 import sun.tools.javac.Main
 
-object scalaIntro {
+object ScalaIntro {
   val x:Int = 5
   val y:Int = 2
   //VALUE: Immutable storage unit. Can be assigned data when it is 
