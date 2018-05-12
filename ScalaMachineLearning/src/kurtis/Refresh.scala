@@ -1,12 +1,10 @@
 package kurtis
 
-object refresh {
+object Refresh {
   /*
    * val is immutable
    * var is mutable
-   * variable syntax structures:
-   * 	val <name>:<type> = <literal>
-   * 	var <name>:<type> = <literal>
+   * <declaration> <name>:<type> = <value>
    */
   
   val helloWorld:String = "Hello World"
@@ -16,7 +14,10 @@ object refresh {
   
    
   def main(args: Array[String]): Unit = {
-    val helloWorldDisplay:String = helloWorld + " " + helloCount
+    val helloWorldDisplay:String = s"Hello World. Count = ${helloCount}"
     println(helloWorldDisplay)
+    
+    val evens = List(2,4,6,8,10)
+    println(s"${evens.head} ${evens(2)} ${evens.last}")
   }
 }
