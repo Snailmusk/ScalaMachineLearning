@@ -11,10 +11,10 @@ object scala2 {
    def main(args: Array[String]): Unit = {
      val str = "Hello"
      //Anonymous value; not bound to a named variable.
-     val long = 5l
+     val double = 5l
      //More literals: 5l = long, 5f = float, 5d = double. Case insensitive.
      println(s"$str Joshua")
-     println(long)
+     println(double)
      //processed string
    }
 }
