@@ -1,9 +1,7 @@
 package basicconcepts
 
-object varlecture {
-  
+object whatever {
   def main(args: Array[String]): Unit = {
-    
-  }
-  
+  println("ABC")
+}
 }
