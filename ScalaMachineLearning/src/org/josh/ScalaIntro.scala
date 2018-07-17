@@ -1,6 +1,5 @@
 package org.josh
 
-import sun.tools.javac.Main
 
 object ScalaIntro {
   val x:Int = 5
