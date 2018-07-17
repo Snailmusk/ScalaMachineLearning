@@ -1,4 +1,4 @@
-package org.josh
+package other
 
 object Physics2 {
  def velocity(variableone: Double, variabletwo: Double) = variableone * variabletwo

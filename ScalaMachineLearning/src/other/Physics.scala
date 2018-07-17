@@ -1,4 +1,4 @@
-package org.josh
+package other
 
 object Physics {
   def distance(metersPerSecond: Double, seconds: Double) = metersPerSecond * seconds

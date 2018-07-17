@@ -1,6 +1,6 @@
 package org.josh
 
-object scala2 {
+object Literals {
   //Every value is an object, and every operation is a method call.
   //Pure object oriented language. Interoperability. Libraries can be referenced interconnectedly.
   //Compiled by Java bytecode, so is compiled on a Java Virtual Machine.

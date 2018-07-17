@@ -1,6 +1,6 @@
 package org.josh
 
-object Scala4 {
+object DataType {
   //*Type* is the KIND of data you are working with; classification of data.
   //Numeric (Int, double, etc) and nonnumeric types (String).
   //Defines values and variables.
