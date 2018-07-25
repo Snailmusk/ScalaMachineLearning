@@ -20,6 +20,8 @@ object First {
    */
   class ArrayElement(conts: Array[String]) extends Element {
     def contents: Array[String] = conts
+    //val contents: Array[String] = conts
+    //can't have field and method with same name
   }
 
   def main(args: Array[String]): Unit = {
@@ -28,6 +30,8 @@ object First {
     
     val ae = new ArrayElement(Array("hi", "planet"))
     println(ae.height)
+    println(ae.width)
+    println(ae.contents)
 
   }
 }
