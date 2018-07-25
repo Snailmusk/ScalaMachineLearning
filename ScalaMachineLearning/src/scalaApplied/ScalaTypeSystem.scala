@@ -31,10 +31,17 @@ object ScalaTypeSystem {
   case class Granola(name: String) extends Cereal
   case class Muesli(name: String) extends Cereal
 
+  abstract class Animal {
+    val name: String
+    override def toString: String = s"Animal - $name"
+  }
+  
   case class Bowl(food: Food) {
     override def toString = s"A bowl of yummy ${food.name}s"
     def contents = food
   }
+  
+  case class Dog(name: String) extends Animal
   
   //GENERIC
   case class Bowl2[J <: Food](contents: J) {
@@ -54,6 +61,9 @@ object ScalaTypeSystem {
   
   //val numBowl = Bowl2(10)
   //due to type parameterization of J being associated with Food, it can't be done
+  
+  val dottie = Dog("Dottie")
+
   def main(args: Array[String]): Unit = {
 
     println(eat(fuji))
